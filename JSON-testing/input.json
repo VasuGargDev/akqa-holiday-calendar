@@ -1,0 +1,72 @@
+[
+	{
+		"date":"2022-01-14",
+		"type": "floating",
+		"label": "Makar Sankranti"
+	},
+	{
+		"date":"2022-01-26",
+		"type": "public",
+		"label": "Republic Day"
+	},
+    {
+		"date":"2022-03-01",
+		"type": "floating",
+		"label": "Maha Shivaratri"
+	},
+    {
+		"date":"2022-03-18",
+		"type": "public",
+		"label": "Holi"
+	},
+    {
+		"date":"2022-04-15",
+		"type": "public",
+		"label": "Good Friday"
+	},
+    {
+		"date":"2022-05-03",
+		"type": "public",
+		"label": "Ramzan Id/ Eid-ul-Fitar"
+	},
+    {
+		"date":"2022-08-11",
+		"type": "public",
+		"label": "Raksha Bandhan"
+	},
+    {
+		"date":"2022-08-15",
+		"type": "public",
+		"label": "Independence Day"
+	},
+    {
+		"date":"2022-08-19",
+		"type": "floating",
+		"label": "Janmashtami"
+	},
+    {
+		"date":"2022-10-05",
+		"type": "public",
+		"label": "Dussehra"
+	},
+    {
+		"date":"2022-10-24",
+		"type": "public",
+		"label": "Deepavali"
+	},
+    {
+		"date":"2022-10-25",
+		"type": "public",
+		"label": "Deepavali"
+	},
+    {
+		"date":"2022-10-26",
+		"type": "floating",
+		"label": "Bhai Duj"
+	},
+    {
+		"date":"2022-11-08",
+		"type": "public",
+		"label": "Guru Nanak Jayanti"
+	}
+]
