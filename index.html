@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="head">
+        <h2>Select a Month</h2>
+    </div>
+    <select id="Months" name="Months" >
+      <option value=0>January</option>
+      <option value=1>February</option>
+      <option value=2>March</option>
+      <option value=3>April</option>
+      <option value=4>May</option>
+      <option value=5>June</option>
+      <option value=6>July</option>
+      <option value=7>August</option>
+      <option value=8>September</option>
+      <option value=9>October</option>
+      <option value=10>November</option>
+      <option value=11>December</option>
+    </select>
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+      <div class="calendar">
+        <div class="month">
+          
+          <div class="date">
+            <h1></h1>
+            <p></p>
+          </div>
+         
+        </div>
+        <div class="weekdays">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+        <div class="days" id="days"></div>
+      </div>
+    </div>
+
+
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="model-label"></p>
+      </div>
+    
+    </div>
+
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
