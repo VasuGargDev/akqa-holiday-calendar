@@ -1,38 +1,368 @@
 [
 	{
+		"date":"2022-01-01",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-01-02",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-01-08",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-01-09",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
 		"date":"2022-01-14",
 		"type": "floating",
 		"label": "Makar Sankranti"
+	},
+	{
+		"date":"2022-01-15",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-01-16",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-01-22",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-01-23",
+		"type": "fixed",
+		"label": "Sunday"
 	},
 	{
 		"date":"2022-01-26",
 		"type": "public",
 		"label": "Republic Day"
 	},
+	{
+		"date":"2022-01-29",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-01-30",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-02-05",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-02-06",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+    {
+		"date":"2022-02-12",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-02-13",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-02-19",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-02-20",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-02-26",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-02-27",
+		"type": "fixed",
+		"label": "Sunday"
+	},
     {
 		"date":"2022-03-01",
 		"type": "floating",
 		"label": "Maha Shivaratri"
+	},
+	{
+		"date":"2022-03-05",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-03-06",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-03-12",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-03-13",
+		"type": "fixed",
+		"label": "Sunday"
 	},
     {
 		"date":"2022-03-18",
 		"type": "public",
 		"label": "Holi"
 	},
+	{
+		"date":"2022-03-19",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-03-20",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-03-26",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-03-27",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-04-02",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-04-03",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-04-09",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-04-10",
+		"type": "fixed",
+		"label": "Sunday"
+	},
     {
 		"date":"2022-04-15",
 		"type": "public",
 		"label": "Good Friday"
+	},
+	{
+		"date":"2022-04-16",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-04-17",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-04-23",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-04-24",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-04-30",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-05-01",
+		"type": "fixed",
+		"label": "Sunday"
 	},
     {
 		"date":"2022-05-03",
 		"type": "public",
 		"label": "Ramzan Id/ Eid-ul-Fitar"
 	},
+	{
+		"date":"2022-05-07",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-05-08",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-05-14",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-05-15",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-05-21",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-05-22",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-05-28",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-05-29",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-06-04",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-06-05",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-06-11",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-06-12",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-06-18",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-06-19",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-06-25",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-06-26",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-07-02",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-07-03",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-07-09",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-07-10",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-07-16",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-07-17",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-07-23",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-07-24",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-07-30",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-07-31",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-08-06",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-08-07",
+		"type": "fixed",
+		"label": "Sunday"
+	},
     {
 		"date":"2022-08-11",
 		"type": "public",
 		"label": "Raksha Bandhan"
+	},
+	{
+		"date":"2022-08-13",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-08-14",
+		"type": "fixed",
+		"label": "Sunday"
 	},
     {
 		"date":"2022-08-15",
@@ -44,10 +374,110 @@
 		"type": "floating",
 		"label": "Janmashtami"
 	},
+	{
+		"date":"2022-08-20",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-08-21",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-08-27",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-08-28",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-09-03",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-09-04",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-09-10",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-09-11",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-09-17",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-09-18",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-09-24",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-09-25",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-10-01",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-10-02",
+		"type": "fixed",
+		"label": "Sunday"
+	},
     {
 		"date":"2022-10-05",
 		"type": "public",
 		"label": "Dussehra"
+	},
+	{
+		"date":"2022-10-08",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-10-09",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-10-15",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-10-16",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-10-22",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-10-23",
+		"type": "fixed",
+		"label": "Sunday"
 	},
     {
 		"date":"2022-10-24",
@@ -64,9 +494,106 @@
 		"type": "floating",
 		"label": "Bhai Duj"
 	},
+	{
+		"date":"2022-10-29",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-10-30",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-11-05",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-11-06",
+		"type": "fixed",
+		"label": "Sunday"
+	},
     {
 		"date":"2022-11-08",
 		"type": "public",
 		"label": "Guru Nanak Jayanti"
+	},
+	{
+		"date":"2022-11-12",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-11-13",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-11-19",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-11-20",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-11-26",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-11-27",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+
+
+	{
+		"date":"2022-12-03",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-12-04",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-12-10",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-12-11",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-12-17",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-12-18",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-12-24",
+		"type": "fixed",
+		"label": "Saturday"
+	},
+	{
+		"date":"2022-12-25",
+		"type": "fixed",
+		"label": "Sunday"
+	},
+	{
+		"date":"2022-12-31",
+		"type": "fixed",
+		"label": "Saturday"
 	}
 ]
