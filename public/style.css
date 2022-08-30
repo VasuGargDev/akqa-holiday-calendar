@@ -1,155 +1,314 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
-  }
-  
-  html {
-    font-size: 62.5%;
-  }
-  
-  .container {
-    width: 100%;
-    height: 100vh;
-    background-color: #12121f;
-    color: #eee;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .calendar {
-    width: 45rem;
-    height: 52rem;
-    background-color: #222227;
-    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
-  }
-  
-  .month {
-    width: 100%;
-    height: 12rem;
-    background-color: #167e56;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-    text-align: center;
-    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
-  }
-  
-  .month i {
-    font-size: 2.5rem;
-    cursor: pointer;
-  }
-  
-  .month h1 {
-    font-size: 3rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .month p {
-    font-size: 1.6rem;
-  }
-  
-  .weekdays {
-    width: 100%;
-    height: 5rem;
-    padding: 0 0.4rem;
-    display: flex;
-    align-items: center;
-  }
-  
-  .weekdays div {
-    font-size: 1.5rem;
-    font-weight: 400;
-    letter-spacing: 0.1rem;
-    width: calc(44.2rem / 7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
-  }
-  
-  .days {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0.2rem;
-  }
-  
-  .days div {
-    font-size: 1.4rem;
-    margin: 0.3rem;
-    width: calc(40.2rem / 7);
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
-    transition: background-color 0.2s;
-  }
-  
-  .days div:hover:not(.today) {
-    background-color: #262626;
-    border: 0.2rem solid #777;
-    cursor: pointer;
-  }
-  
-  .prev-date,
-  .next-date {
-    opacity: 0.5;
-  }
-  
-  .today {
-    background-color: #167e56;
-  }
-  .floating{
-    background-color: orange !important;
-  }
-  .public
-  {
-    background-color: red !important;
-  }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
-  /* ----------MODEL*/
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+*{
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.date{
+  text-align: center;
+}
+
+.banner{
+  margin-top: 100px;
+  animation: fadeIn 5s;
+}
+
+.head{
+  width: max-content;
+  float: left;
+  padding: 0px 0px 0px 30px;
+  animation: fadeIn 10s;
+}
+
+.button{
+  float: right;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 100px;
+  animation: fadeIn 10s;
+
+}
+
+.inside-button{
+  border:2px solid black; 
+  padding:10px 20px 10px 20px;
+  font-size: large;
+}
+
+
+#Months{
+  margin:20px 15px 0;
+  font-size: 20px;
+  border: 2px solid;
+  animation: fadeIn 10s;
+}
+
+.container{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    margin-top: 50px;
+    animation: fadeIn 10s;
+}
+
+.calendar{
+    width:500px;
+    height:max-content;
+    background-color: rgb(219, 213, 213);
+    box-shadow:0px 0px 10px black;
+}
+
+.month{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(137, 181, 237);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-shadow:0.5px 0.5px 0.5px black;
+    border: 1px solid black;
+}
+
+.weekdays{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.weekdays div{
+    border: 1px solid black;
+    padding:15px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0.4px 0.4px 0.4px black;
+}
+
+.days{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.days div{
+    border: 1px solid black;
+    padding:10px 27px 10px;
+    width: 14.285%;
+    text-align: center;
+}
+
+.days div:hover:not(.next-date, .prev-date){
+  cursor: pointer;
+}
+
+.today {
+  background-color:rgb(137, 181, 237);
+}
+
+.prev-date{
+  padding: 28.5px 27px 10px !important;
+}
+
+.next-date{
+  padding: 28.5px 27px 10px !important;
+}
+
+.floating{
+  background-color: orange !important;
+}
+
+.public
+{
+  background-color: red !important;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .calendar {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  box-shadow:0px 0px 10px white;
+}
+
+.dark-mode .month{
+  border: 1px solid white;
+}
+
+.dark-mode .weekdays div{
+  border: 1px solid white;
+}
+
+.dark-mode .days div{
+  border: 1px solid white;
+}
+
+.dark-mode #navbar{
+  background-color: black;
+  color: white;
+}
+
+.dark-mode #logo{
+  background-color: black;
+  color: white;
+}
+
+.dark-mode #navbar-right a{
+  color: white;
+}
+
+.dark-mode .banner{
+  background-color: white;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #dedede;
+  animation:fadeIn 3s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  padding: 15px;
+}
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+#navbar #logo {
+  font-size: 40px;
+  transition: 0.4s;
+  letter-spacing: -5px;
+  margin-left: 50px;
+  font-family: "goudy-old-style",Georgia,Serif,sans-serif;
+}
+
+#navbar a:hover:not(.logo){
+  background-color: rgb(167, 167, 167);
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+  margin-right: 50px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  width: 50%;
+  border-radius: 4px;
+}
+
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 532px) {
+  /* .container{
+    width:490
   }
-  
-  /* Modal Content */
-  .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+  .calendar{
+    width: 490;
   }
-  
-  /* The Close Button */
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  .weekdays , .days{
+    width: auto;
+  } */
+
+  #navbar {
+    padding: 20px 10px !important;
   }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+  #navbar .logo{
+    margin-left: 0px !important;
   }
+  #navbar a {
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-right: 0px;
+  }
+  .container{
+    width: 100%;
+  }
+  .banner{
+    margin-top: 180px;
+  }
+  .button{
+    font-size: small;
+    align-items: center;
+  }
+  .modal-content{
+    width: auto;
+    height: fit-content;
+    margin-top: 80px;
+  }
+}
