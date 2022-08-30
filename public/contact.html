@@ -1,1 +1,80 @@
-#html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKQA | Contact US</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        
+       <a href="#" id="logo" class="logo">
+            <span>AKQA</span>
+        </a>
+         <div id="navbar-right">
+          <a class="active" href="#home">Home</a>
+          <a href="policy.html">Leave Policy</a>
+          <a href="contact.html">Feedback</a>
+        </div>
+    </div>
+
+</main>
+<div class="contain">
+    <form>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name*</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="required">
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-25">
+            <label for="fname">Middle Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="mname" name="middlename" placeholder="optional">
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name*</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="required">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Country*</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="Ireland">Select</option>
+            <option value="Ireland">Ireland</option>
+            <option value="Duetschland">Deutschland</option>
+            <option value="Honduras">Honduras</option>
+            <option value="Checia">Chechia</option>
+            <option value="Slovakia">Slovakia</option>
+            <option value="USA">US A</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Enquiry</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write your query here" style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
