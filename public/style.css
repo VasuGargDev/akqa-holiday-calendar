@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-body{
+body:not(.container){
   margin: 0;
 }
 
@@ -20,6 +20,9 @@ body{
   animation: fadeIn 5s;
 }
 
+.banner img{
+  width:100% ;
+}
 .head{
   width: max-content;
   float: left;
@@ -52,24 +55,23 @@ body{
 
 .container{
     height: max-content;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-wrap: wrap;
-    margin-top: 50px;
+    flex-grow: 1;
+    margin:50px;
     animation: fadeIn 10s;
 }
 
 .calendar{
-    width:500px;
+  width: 500px;
     height:max-content;
     background-color: rgb(219, 213, 213);
     box-shadow:0px 0px 10px black;
 }
 
 .month{
-    width: 100%;
     height: max-content;
     background-color: rgb(137, 181, 237);
     display: flex;
@@ -80,7 +82,6 @@ body{
 }
 
 .weekdays{
-    width: 100%;
     height: max-content;
     display: flex;
     align-items: center;
@@ -88,24 +89,28 @@ body{
 
 .weekdays div{
     border: 1px solid black;
-    padding:15px;
-    width: 100%;
+    padding:10px;
+    width: 14.285%;
     text-align: center;
     text-shadow: 0.4px 0.4px 0.4px black;
+    flex-grow: 1;
 }
 
 .days{
     width: 100%;
+    flex-grow: 1;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 .days div{
     border: 1px solid black;
-    padding:10px 27px 10px;
     width: 14.285%;
+    flex-grow: 1;
     text-align: center;
+    padding: 10px;
 }
 
 .days div:hover:not(.next-date, .prev-date){
@@ -117,11 +122,11 @@ body{
 }
 
 .prev-date{
-  padding: 28.5px 27px 10px !important;
+  padding: 28.5px 0px 10px !important;
 }
 
 .next-date{
-  padding: 28.5px 27px 10px !important;
+  padding: 28.5px 0px 10px !important;
 }
 
 .floating{
@@ -236,16 +241,16 @@ body{
 }
 
 
-.modal-content {
+#modal-content {
   background-color: #fefefe;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
-  padding: 20px;
+  margin: 0 30%;
+  padding: 10px;
   border: 2px solid rgb(0, 0, 0);
-  width: 50%;
   border-radius: 4px;
+  font-size: larger;
 }
 
 
@@ -297,7 +302,9 @@ body{
     margin-right: 0px;
   }
   .container{
-    width: 100%;
+    width: 95%;
+    padding: 20px;
+    margin: 0 auto;
   }
   .banner{
     margin-top: 180px;
@@ -306,63 +313,14 @@ body{
     font-size: small;
     align-items: center;
   }
-  .modal-content{
-    width: auto;
-    height: fit-content;
-    margin-top: 80px;
-  }
-}
-/* ////////contact styling file////////////// */
-
-input[type=text],select,textarea{
+  #modal-content{
+  height: fit-content;
+  margin: 80px 0;
+  padding: 10px;
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-label{
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-input[type=submit]{
-  background-color: green;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-input[type=submit]:hover{
-  background-color: lightblue;
-}
-.contain{
-    margin-top:150px ;
-  border-radius: 5px;
-  background-color: lightgrey;
-  padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-inline-start: 40px;
-  border-left: 100px solid rgb(248, 244, 244);
-  border-right: 100px solid rgb(248, 244, 244);
-  border-top: 30px solid rgb(248, 244, 244);
-  border-bottom: 30px solid rgb(248, 244, 244);
-  float: center;
-}
-.col-25{
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-.col-75{
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-.row:after{
-  content: "";
-  display: table;
-  clear: both;
+  }
+  .banner img{
+    height:max-content;
+    width: 100%;
+  }
 }
